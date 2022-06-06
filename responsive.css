@@ -1,0 +1,92 @@
+@media screen and (max-width:1024px) {
+    .descricao{
+        width: 100%;
+    }
+    .container .descricao{
+        font-size: 10%;
+    }
+
+    header nav a{
+        font-size: 100%;
+    }
+
+    .filme-principal .titulo{
+        font-size: 100%;
+    }
+
+    .filme-principal .descricao{
+        font-size: 100%;
+        text-align: justify;
+    }
+
+    .botoes a{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-top: 5px;
+        width: 200px;
+        height: 10px;
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width:745px) {
+    header .container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    header .container a{
+        font-size: 70%;
+    }
+
+    header .logo{
+        font-size:  150%;
+        margin-top: 20px;
+    }
+
+    header nav a{
+        font-size: 100%;
+    }
+
+    .filme-principal .titulo{
+        font-size: 80%;
+    }
+
+    .filme-principal .descricao{
+        font-size: 70%;
+        text-align: justify;
+    }
+
+    .botoes a{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-top: 5px;
+        width: 200px;
+        height: 10px;
+        font-size: 50%;
+    }
+    
+}
+@media screen and(max-width:600px) {
+    .filme-principal .titulo{
+        font-size: 140%;
+    }
+
+    .filme-principal .descricao{
+        font-size: 140%;
+        text-align: justif
+    }
+    
+    .botoes a{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-top: 5px;
+        width: 200px;
+        height: 10px;
+        font-size: 100%;
+    }
+}
+    

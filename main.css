@@ -1,0 +1,115 @@
+:root{
+    --vermelha: #E50914;
+    --preta: #241d1d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: #ffff;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header .logo{
+    color: var(--vermelha);
+    font-family: arial Black, Times;
+    font-size: 50px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*filme-principal*/
+
+.filme-principal{
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url(./img/theGoodDoctor.jpg);
+
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 50px;
+    font-family: 'Trebuchet MS','Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botoes a{
+    display:inline-block;
+    background-color: #241d1d;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.botoes a:hover{
+    background-color: white;
+    color: black;
+}
+
+.botoes i{
+    margin: 13px;
+}
+
+.container{
+    margin-left: 10PX;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 90%;
+    width: 90%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+/*WRAPPER = ENVELOPAR*/
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    }
